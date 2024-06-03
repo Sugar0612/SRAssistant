@@ -1,0 +1,2 @@
+from mouseinfo import size
+
