@@ -1,4 +1,7 @@
 import sys
+
+import pyautogui
+
 import screen
 import mouse
 
@@ -13,4 +16,7 @@ if __name__ == '__main__':
 
     print("### mouse func ###")
     mouse.get_mouse_pos()
-    # getScreen()
+    # mouse.moveto_mouse(0, 0)
+    # mouse.move_some_offset_of_mouse(100, 0)
+    # mouse.mouse_drag_to(900, 600, pyautogui.LEFT)
+    mouse.drag_some_offset_of_mouse(100, 0, 0.5)
