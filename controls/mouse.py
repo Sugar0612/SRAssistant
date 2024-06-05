@@ -26,3 +26,18 @@ def mouse_drag_to(x, y, _button):
 def drag_some_offset_of_mouse(x, y, time):
     print("--- drag_some_offset_of_mouse ---")
     pyautogui.drag(x, y, time)
+
+
+def mouse_click(x, y):
+    print("--- mouse click ---")
+    pyautogui.click(x, y)
+
+
+def mouse_double_click(x, y):
+    print("--- mouse double click ---")
+    pyautogui.doubleClick(x, y)
+
+
+def mouse_down(x, y):
+    print("--- mouse_down ---")
+    pyautogui.mouseDown(x, y)
