@@ -21,6 +21,7 @@ if __name__ == '__main__':
     # mouse.mouse_drag_to(900, 600, pyautogui.LEFT)
     # mouse.drag_some_offset_of_mouse(100, 0, 0.5)
     # mouse.mouse_click(0, 100)
-    #mouse.mouse_double_click(0, 150)
-    mouse.mouse_down()
+    # mouse.mouse_double_click(0, 150)
+    # mouse.mouse_down()
+    mouse.mouse_scroll()
 

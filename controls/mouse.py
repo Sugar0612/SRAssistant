@@ -41,3 +41,9 @@ def mouse_double_click(x, y):
 def mouse_down(x, y):
     print("--- mouse_down ---")
     pyautogui.mouseDown(x, y)
+
+
+def mouse_scroll():
+    print("--- mouse scroll ---")
+    # pyautogui.scroll(-500)
+    pyautogui.hscroll(500)
